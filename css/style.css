@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  border: 3px solid red;
+  box-sizing: border-box;
+  min-height: 50px;
+}
+
+/* Main block */
+.content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+.users {
+  border: 3px solid orange;
+  box-sizing: border-box;
+  overflow: auto;
+  width: 200px;
+}
+
+.comments {
+  border: 3px solid #4B0082;
+  box-sizing: border-box;
+  flex: 1;
+  overflow: auto;
+}
+/* /Main block */
+
+.footer {
+  border: 3px solid green;
+  box-sizing: border-box;
+  min-height: 100px;
+}
